@@ -1,0 +1,22 @@
+# FastAPI and Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Data Processing
+numpy==1.26.4
+pandas==2.0.3
+
+# Machine Learning
+scikit-learn==1.4.2
+
+# Validation
+pydantic==2.5.0
+
+# CORS and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Optional: For better logging
+colorama==0.4.6
+

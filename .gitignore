@@ -1,0 +1,327 @@
+# ============================================
+# HEART DISEASE PREDICTION - .gitignore
+# ============================================
+
+# ============================================
+# PYTHON / BACKEND
+# ============================================
+
+# Python virtual environment
+venv/
+env/
+ENV/
+backend/venv/
+backend/env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+backend/.ipynb_checkpoints/
+
+# Model files (if you want to exclude large model files)
+# Uncomment if you don't want to commit model files
+# Note: heart_disease_svm_model.pkl is allowed to be committed
+# *.pkl
+# *.h5
+# *.model
+# backend/model/*.pkl
+
+# Python distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# FastAPI / Uvicorn
+*.log
+
+# ============================================
+# NODE.JS / FRONTEND
+# ============================================
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+/build
+/dist
+frontend/build/
+frontend/dist/
+
+# Testing
+/coverage
+frontend/coverage/
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Package manager lock files (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# ============================================
+# ENVIRONMENT VARIABLES
+# ============================================
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# ============================================
+# IDE / EDITOR
+# ============================================
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# DATABASE
+# ============================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# PostgreSQL
+*.pgsql
+
+# MySQL
+*.mysql
+
+# ============================================
+# DATA FILES
+# ============================================
+
+# Large data files (uncomment if needed)
+# *.csv
+# *.xlsx
+# *.xls
+# *.json
+# data/
+# datasets/
+
+# Uploaded files
+uploads/
+temp/
+tmp/
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# MACHINE LEARNING
+# ============================================
+
+# Trained models (uncomment if you want to exclude)
+# *.pkl
+# *.h5
+# *.pt
+# *.pth
+# *.onnx
+# *.pb
+# *.weights
+# models/
+# checkpoints/
+
+# TensorFlow
+*.ckpt
+*.index
+*.meta
+checkpoint
+
+# Keras
+*.hdf5
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# ============================================
+# DOCUMENTATION
+# ============================================
+
+# Generated documentation
+docs/_build/
+site/
+
+# ============================================
+# MISCELLANEOUS
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# System files
+*.sys
+*.dll
+*.exe
+
+# Certificates & Keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Secrets
+secrets.json
+credentials.json
+service-account.json
+
+# ============================================
+# PROJECT SPECIFIC
+# ============================================
+
+# Cache directories
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+temp_*
+tmp_*
+
+# Test files
+test_output/
+test_results/
+
+# ============================================
+# END OF .gitignore
+# ============================================
