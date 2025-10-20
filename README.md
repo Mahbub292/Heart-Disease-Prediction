@@ -9,7 +9,7 @@ A complete full-stack web application for predicting heart disease using Machine
 
 ## 🎯 Features
 
-- ✨ **Machine Learning Prediction**: Uses trained SVM model for accurate heart disease prediction
+- ✨ **Machine Learning Prediction**: Uses a trained SVM model for accurate heart disease prediction
 - 🚀 **FastAPI Backend**: High-performance Python backend with automatic API documentation
 - ⚛️ **React.js Frontend**: Modern, responsive UI built with React and Tailwind CSS
 - ✅ **Real-time Validation**: Input validation on both frontend and backend
@@ -65,7 +65,7 @@ HEART-DISEASE-PREDICTION/
 #### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Mahbub292/Heart-Disease-Prediction.git
 cd HEART-DISEASE-PREDICTION
 ```
 
